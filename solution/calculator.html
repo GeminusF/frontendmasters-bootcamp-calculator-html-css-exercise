@@ -4,19 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
-    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="calculator.css">
 </head>
-
-<!-- 
-   1. screen kodla qara ekran 0 reqemi gorsenir
-   2. calc buttonlarini 4+1 işlem və reqemler olaraq ayır 
-   3. calc-buttons 5 row olaraq bol:
-      * C , <-
-      * 1 , 2, 3
-      * 4 , 5, 6
-      * 7 , 8, 9
-      * 0
- -->
 
 <body>
     <div class="wrapper">
@@ -27,8 +16,8 @@
         <section class="calc-buttons">
             <div class="numbers">
                 <div class="first-column">
-                    <button>C</button>
-                    <button>&larr;</button>
+                    <button id="reset">C</button>
+                    <button id="delete">&larr;</button>
                 </div>
                 <div class="second-column">
                     <button>1</button>

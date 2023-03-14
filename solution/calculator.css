@@ -9,9 +9,11 @@ html {
 body {
   padding: 0;
   margin: 0;
+  font-size: 2rem;
 }
 button {
   border: 1px black solid;
+  font-size: 2rem;
 }
 .wrapper {
   width: 400px;
@@ -23,7 +25,6 @@ button {
   color: white;
   text-align: right;
   height: 3.125rem;
-  font-size: 1.5rem;
 }
 .calc-buttons {
   height: 21.875rem;
@@ -58,29 +59,32 @@ button {
   display: flex;
   flex-flow: row nowrap;
 }
-.first-column button {
-  flex-basis: 50%;
+.first-column #reset {
+  flex-basis: 66.7%;
+}
+.first-column #delete{
+  flex-basis: 33.3%;
 }
 .second-column {
   display: flex;
   flex-flow: row nowrap;
 }
 .second-column button {
-  flex-basis: 33.3%;
+  flex-basis: 33.33%;
 }
 .third-column {
   display: flex;
   flex-flow: row nowrap;
 }
 .third-column button {
-  flex-basis: 33.3%;
+  flex-basis: 33.33%;
 }
 .fourth-column {
   display: flex;
   flex-flow: row nowrap;
 }
 .fourth-column button {
-  flex-basis: 33.3%;
+  flex-basis: 33.33%;
 }
 .fifth-column {
   display: flex;
