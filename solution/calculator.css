@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+button {
+  border: 1px black solid;
+}
+.wrapper {
+  width: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.screen {
+  background-color: black;
+  color: white;
+  text-align: right;
+  height: 3.125rem;
+  font-size: 1.5rem;
+}
+.calc-buttons {
+  height: 21.875rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.numbers {
+  flex-basis: 70%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.numbers div {
+  flex-basis: 20%;
+}
+.numbers div button {
+  background-color: #d8d9db;
+  color: #000000;
+}
+.numbers div button:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+  color: #000000;
+}
+.numbers div button:active {
+  cursor: pointer;
+  background-color: #bbbcbe;
+  color: #000000;
+}
+.first-column {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.first-column button {
+  flex-basis: 50%;
+}
+.second-column {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.second-column button {
+  flex-basis: 33.3%;
+}
+.third-column {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.third-column button {
+  flex-basis: 33.3%;
+}
+.fourth-column {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.fourth-column button {
+  flex-basis: 33.3%;
+}
+.fifth-column {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.fifth-column button {
+  flex-basis: 100%;
+}
+.operations {
+  flex-basis: 30%;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.operations button {
+  background-color: #df974c;
+  color: #ffffff;
+  flex-basis: 20%;
+}
+.operations button:hover {
+  cursor: pointer;
+  background-color: #dfb07e;
+}
+.operations button:active {
+  cursor: pointer;
+  background-color: #dd8d37;
+}
