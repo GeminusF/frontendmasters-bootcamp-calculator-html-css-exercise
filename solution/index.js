@@ -20,7 +20,6 @@ deleteButton.addEventListener("click", function () {
 });
 
 const buttons = document.querySelectorAll(".number");
-
 buttons.forEach((button) => {
   button.addEventListener("click", function () {
     if (answer.innerText === "0") {
@@ -33,11 +32,7 @@ buttons.forEach((button) => {
   });
 });
 
-// operator buttonlarını əlavə elə,  buttondan yox answerden deyer goturek
-
-// toplama
 const plusButton = document.getElementById("addition");
-
 plusButton.addEventListener("click", function () {
   let tmp = parseInt(answer.innerText);
   answer.innerText = "0";
@@ -47,24 +42,16 @@ plusButton.addEventListener("click", function () {
   }
 });
 
-// çıxma
 const minusButton = document.getElementById("subtraction");
-
 minusButton.addEventListener("click", function () {});
 
-// vurma
 const timesButton = document.getElementById("multiplication");
-
 timesButton.addEventListener("click", function () {});
 
-// bÖlmə
 const divideButton = document.getElementById("division");
-
 divideButton.addEventListener("click", function () {});
 
-// calculate funksiyası yaradılması
 const calculateButton = document.getElementById("calculate");
-
 calculateButton.addEventListener("click", function () {
   answer.innerText = result;
 });
